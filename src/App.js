@@ -1,4 +1,7 @@
-import './App.css';
+
+import { Link } from 'react-router-dom';
+
+import './App.scss';
 
 import imgOne from './ph-0.png';
 import imgTwo from './ph-1.png';
