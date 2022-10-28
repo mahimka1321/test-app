@@ -1,3 +1,16 @@
+$colorText: #fff;
+$colorText-2: #4AFF93;
+$colorText-3: #2b2b2b;
+
+$BackgroundColor-1: #fff;
+$BackgroundColor-2: #4AFF93;
+$BackgroundColor-3: rgba(255, 255, 255, 0.5);
+
+$BorderColor-1: #fff;
+$BorderColor-2: #4AFF93;
+$BorderColor-3: rgba(255, 255, 255, 0.5);  
+$BorderColor-4: #2b2b2b;  
+
 
 :root {
   --file-grid-tile-min-width: 872px;
@@ -251,3 +264,10 @@ body
     }
 }
   
+.logo-name { color: $colorText; }
+.container-tx-0 { color: $colorText; }
+.start-tx { color: $colorText; }
+.logo-name > span { color: $colorText-2; }
+
+.App { background: $colorText-3; box-shadow: 0px 0px 20px 5px rgba(112, 112, 112, 0.25); }
+.btn-st-0 { color: #000000; background: $BackgroundColor-2; }
