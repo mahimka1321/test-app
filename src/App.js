@@ -1,6 +1,3 @@
-
-import Link from 'react-router-dom';
-
 import './App.scss';
 
 import imgOne from './ph-0.png';
@@ -52,23 +49,23 @@ function App() {
               <ul className='ul-container'>
                 <li className='btn-con'>
                   <button className='ul_li-btn'>
-                    <Link className='link-nav'>
+                    <div className='link-nav'>
                       <p className='continer_tx-nav'><span>о</span> проекте</p>
-                    </Link>
+                    </div>
                   </button>
                 </li>
                 <li className='btn-con'>
                   <button className='ul_li-btn'>
-                    <Link className='link-nav'>
+                    <div className='link-nav'>
                       <p className='continer_tx-nav'><span>к</span>то мы?</p>
-                    </Link>
+                    </div>
                   </button>
                 </li>
                 <li className='btn-con'>
                   <button className='ul_li-btn'>
-                    <Link className='link-nav'>
+                    <div className='link-nav'>
                       <p className='continer_tx-nav'><span>к</span>ак это работает?</p>
-                    </Link>
+                    </div>
                   </button>
                 </li>
               </ul>
@@ -97,9 +94,9 @@ function App() {
           </div>
           <div className="start-content">
             <p className="start-tx">Что бы начать работу нажмите на кнопку</p>
-            <Link to="#" className="btn-st-0">
+            <div className="btn-st-0">
               начать
-            </Link>
+            </div>
           </div>
           {/* контейнер 2 */}
           <div className="container-in-0 container-01">
